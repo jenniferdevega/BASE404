@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>De Vega, Jennifer, Activity 2 - More HTML Elements and Forms</title>
+  </head>
+    <!--Start of Images -->
+    <section>
+      <h1>Anime Images I Love:</h1>
+      <img
+        src="https://wikiofnerds.com/wp-content/uploads/2023/04/Satoru-Gojo-Makes-Glorious-Return-In-Epic-Jujutsu-Kaisen-Showdown.jpg"
+        height="150"
+        width="250"
+        alt="Gojo" title="Satoru Gojo of Jujutsu Kaisen"
+      />
+      <img
+        src="https://s1.zerochan.net/Kaneki.Ken.600.3135119.jpg"
+        height="150"
+        width="150"
+        alt="Kaneki" title = "Ken Kaneki of Tokyo Ghoul"
+      />
+      <img
+        src="https://w0.peakpx.com/wallpaper/671/585/HD-wallpaper-anime-jigoku-sh%C5%8Djo-hell-girl.jpg"
+        height="150"
+        width="250"
+        alt="Enma Ai" title="Enma Ai of Jigoku Shoujo"
+      />
+    </section>
+    <hr />
+    <!--End of Images -->
+
+    <!-- Start of Weekly Schedule -->
+      <br>
+      <table cellspacing="0" cellpadding="8" border="3">
+        <caption><strong>My Weekly Schedule</strong></caption>
+        <thead>
+          <tr>
+            <th rowspan="2">Parts of the Day</th>
+            <th colspan="7">Days of the Week</th>
+          </tr>
+
+        <!-- Start of Days of the Week -->
+          <tr>
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+          </tr>
+        </thead>
+        <!-- End of Days of the Week -->
+
+        <tbody>
+          <!-- Start of Morning Activities -->
+            <tr>
+              <th>Morning</th>
+              <td>Sleeping</td>
+              <td>15-minute Yoga & Work</td>
+              <td>15-minute Yoga & Work</td>
+              <td>15-minute Yoga & Work</td>
+              <td>15-minute Yoga & Work</td>
+              <td>15-minute Yoga & Work</td>
+              <td>Sleeping</td>
+            </tr>
+          <!-- End of Morning Activities -->
+
+          <!-- Start of Afternoon Activities -->
+            <tr>
+              <th>Afternoon</th>
+              <td>Explore the City</td>
+              <td>Work</td>
+              <td>Work</td>
+              <td>Work</td>
+              <td>Work</td>
+              <td>Work</td>
+              <td>Sleeping</td>
+            </tr>
+          <!-- End of Afternoon Activities -->
+
+          <!-- Start of Evening Activities -->
+            <tr>
+              <th>Evening</th>
+              <td>Explore the City</td>
+              <td>Work</td>
+              <td>Work</td>
+              <td>Work</td>
+              <td>Work</td>
+              <td>Work</td>
+              <td>Watch Anime or Horror Movies</td>
+            </tr>
+          <!-- End of Evening Activities -->
+        </tbody>
+      </table>
+    <!-- End of Weekly Schedule -->
+
+    <!-- Start of Feedback form for a fictional product or service -->
+    <main>
+      <br>
+      <h2>Lausiv ERP Feedback Form</h2>
+      <hr>
+      <br>
+      <form>
+        <div>
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" placeholder="Ex. Jennifer De Vega" required>
+        </div>
+        
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="name@domain.com" required>
+        
+        <p><label for="feedback">Feedback:</label></p>
+        <textarea name="feedback" id="feedback" cols="50" rows="10" required></textarea>
+
+        <p>How did you find <strong>Lausiv ERP</strong>?</p>
+        <span>Social Media</span>
+        <input type="radio" name="platform" value="social media" required>
+
+        <span>Word of Mouth</span>
+        <input type="radio" name="platform" value="word of mouth">
+
+        <span>Advertisement</span>
+        <input type="radio" name="platform" value="advertisement">
+
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <!-- End of Feedback form for a fictional product or service -->
+  </body>
+</html>
